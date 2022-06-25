@@ -6,7 +6,7 @@ import { RiMoonLine, RiSunLine } from "react-icons/ri";
 import GlobalStyles from "./GlobalStyles";
 import Header from "./components/Header";
 import Home from "./pages/Home";
-import { Button, IconButton } from "./components/shared/Button";
+import { IconButton } from "./components/shared/Button";
 import Select from "./components/shared/Select";
 import CurrencyContext from "./contexts/CurrencyContext";
 import Coin from "./pages/Coin";
@@ -50,7 +50,6 @@ const App = () => {
             <option value="eur">EUR</option>
             <option value="gbp">GBP</option>
           </Select>
-          <Button>LOGIN</Button>
           <IconButton
             onClick={() =>
               setTheme((prevState) =>
